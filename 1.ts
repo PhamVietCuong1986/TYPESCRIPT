@@ -19,7 +19,11 @@
 // }
 
 // mang kieu so
- var songNguyen : number[] = [2,4,6];
- for( var i =0; i < songNguyen.length; i++){
-     console.log(songNguyen[i]);
- }
+//  var songNguyen : number[] = [2,4,6];
+//  for( var i =0; i < songNguyen.length; i++){
+//      console.log(songNguyen[i]);
+//  }
+
+ // du lieu kieu enum
+ enum trangthai {chuadangky=10, dadangky="good", hoanthanh="finish"}
+ console.log(trangthai.dadangky);

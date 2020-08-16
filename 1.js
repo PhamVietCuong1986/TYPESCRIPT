@@ -15,7 +15,15 @@
 // console.log(student[i]);
 // }
 // mang kieu so
-var songNguyen = [2, 4, 6];
-for (var i = 0; i < songNguyen.length; i++) {
-    console.log(songNguyen[i]);
-}
+//  var songNguyen : number[] = [2,4,6];
+//  for( var i =0; i < songNguyen.length; i++){
+//      console.log(songNguyen[i]);
+//  }
+// du lieu kieu enum
+var trangthai;
+(function (trangthai) {
+    trangthai[trangthai["chuadangky"] = 10] = "chuadangky";
+    trangthai["dadangky"] = "good";
+    trangthai["hoanthanh"] = "finish";
+})(trangthai || (trangthai = {}));
+console.log(trangthai.dadangky);
