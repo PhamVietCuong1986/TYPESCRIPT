@@ -25,5 +25,18 @@
 //  }
 
  // du lieu kieu enum
- enum trangthai {chuadangky=10, dadangky="good", hoanthanh="finish"}
- console.log(trangthai.dadangky);
+//  enum trangthai {chuadangky=10, dadangky="good", hoanthanh="finish"}
+//  console.log(trangthai.dadangky);
+
+// kieu tuple cho mang nhieu kieu du lieu
+//  var x : [string, number, string];
+//  x = ["viet", 100,"han"];
+//  console.log(x[2]);
+
+// kieu any
+var x : any;
+x = {dongho:{hang: "senko",
+mausac: "vang",
+giatien: 10000
+}, xemay:"hoanda", chieucao: 1650,}
+console.log(x);
